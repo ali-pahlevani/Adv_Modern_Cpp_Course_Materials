@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>exercises_unit_2</name>
+  <version>0.1.0</version>
+  <description>Reference solutions for the Unit 2 (STL) exercises, 2.1 to 2.7.</description>
+  <maintainer email="a.pahlevani1998@gmail.com">Ali Pahlevani</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>diffbot_commander</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,3 @@
+#pragma once
+template <typename T>
+void log_twice(const T & value);      // declared here...
